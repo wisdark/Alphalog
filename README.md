@@ -1,4 +1,4 @@
-<img src="fuzz.red.jpg">
+[![](https://raw.githubusercontent.com/AlphabugX/Alphalog/main/fuzz.red.jpg)](https://www.fuzz.red/)
 
 # Alphalog (正式开源公测)
 
@@ -29,7 +29,8 @@ DNSLog、httplog、rmilog、ldaplog、jndi 等都支持,完全匿名 产品(fuzz
 - 任意平台
 - Redis数据库
 
-2. 配置config.yaml文件
+2. 创建config.yaml文件
+内容如下
 ```
 domain: alphabug.cn
 IP_DNS: VPS地址
@@ -203,7 +204,7 @@ $ curl fuzz.red -X POST -d "key=63d755be-9683-40a9-91fb-b85890155872" | python -
 ## Stargazers over time
 
 [![Stargazers over time](https://starchart.cc/AlphabugX/Alphalog.svg)](https://starchart.cc/AlphabugX/Alphalog.svg)
-
+ 
 
 ## 实时反馈群 
 
